@@ -7,7 +7,8 @@ artists = [
         "fields": {
             "name": "Kendrick Lamar",
             "genre": "Hip Hop",
-            "description": "An American rapper, songwriter, and record producer."
+            "description": "An American rapper, songwriter, and record producer.",
+            "picture": "example.com" # CHANGE THIS
         }
     },
     {
@@ -16,7 +17,8 @@ artists = [
         "fields": {
             "name": "J. Cole",
             "genre": "Hip Hop",
-            "description": "An American rapper, singer, songwriter, and record producer."
+            "description": "An American rapper, singer, songwriter, and record producer.",
+            "picture": "example.com" # CHANGE THIS
         }
     },
     {
@@ -25,7 +27,8 @@ artists = [
         "fields": {
             "name": "Nicki Minaj",
             "genre": "Hip Hop",
-            "description": "A Trinidadian-American rapper, singer, and songwriter."
+            "description": "A Trinidadian-American rapper, singer, and songwriter.",
+            "picture": "example.com" # CHANGE THIS
         }
     }
 ]
