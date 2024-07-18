@@ -5,6 +5,7 @@ class Artist(models.Model):
     name = models.CharField(max_length=100)
     genre = models.TextField(max_length=3000) # roughly 430-750 words
     description = models.TextField(max_length=3000)
+    picture = models.CharField()
 
     def __str__(self):
         return str(self.name)
