@@ -4,7 +4,7 @@ from .models import Venue, Artist, Event
 class ArtistSerializer(serializers.ModelSerializer):
     class Meta:
         model = Artist
-        fields = ['id', 'name', 'genre', 'description']
+        fields = ['id', 'name', 'genre', 'description', 'picture']
 
 class VenueSerializer(serializers.ModelSerializer):
     class Meta:
